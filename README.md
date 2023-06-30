@@ -12,7 +12,7 @@ Project Organization
     │   ├── processed      <- Dữ liệu đã qua bước tiền xử lý
     │   └── raw            <- Dữ liệu thô.
     │
-    ├── models             <- Các checkpoint, models đã train
+    ├── models             <- Các checkpoint, models đã train.
     │
     ├── notebooks          <- Các file notebooks tiền xử lý dữ liệu, chạy lần lượt theo thứ tự từ trên xuống.
     │                         
@@ -42,5 +42,5 @@ Project Organization
     │
     └── submission
         └── submission.csv <- File submission
-         
+
 --------
