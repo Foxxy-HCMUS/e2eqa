@@ -14,7 +14,7 @@ class QAEnsembleModel(nn.Module):
         self.nlps = []
         for model_checkpoint in model_checkpoints:
             model = AutoModelForQuestionAnswering.from_pretrained(model_name).half()
-            model.load_state_dict(torch.load(model_checkpoint))
+            model.load_state_dict(torch.load(model_checkpoint), strict=False)
             nlp = pipeline('question-answering', model=model,
                            tokenizer=model_name, device=int(device.split(":")[-1]))
             self.nlps.append(nlp)

@@ -1,5 +1,5 @@
 import streamlit as st
-# from models.predict_model import *
+from models.predict_model import *
 
 with st.sidebar:
     st.write("# 🤖 Language Models")
@@ -18,7 +18,7 @@ if prompt := st.chat_input():
     st.chat_message("user").write(prompt)
     msg = {
         "role": "assistant", 
-        "content": "test", #get_answer_e2e(prompt)
+        "content": get_answer_e2e(prompt)
     }
     st.session_state.messages.append(msg)
     st.chat_message("assistant").write(msg["content"])
