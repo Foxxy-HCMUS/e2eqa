@@ -44,4 +44,4 @@ Project Organization
         └── submission.csv <- File submission
 
 --------
-demo: [https://www.youtube.com/watch?v=dDLh55HYrfg](https://www.youtube.com/watch?v=dDLh55HYrfg)
+demo: ![https://www.youtube.com/watch?v=dDLh55HYrfg](https://www.youtube.com/watch?v=dDLh55HYrfg)
