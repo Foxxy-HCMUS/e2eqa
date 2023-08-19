@@ -5,3 +5,4 @@
 streamlit==1.24.0
 transformers==4.24.0
 git+https://github.com/witiko/gensim.git@feature/bm25
+cdlib
