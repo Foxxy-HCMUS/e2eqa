@@ -1,6 +1,8 @@
 import json
 from glob import glob
 import re
+import nltk
+nltk.download("punkt")
 from nltk import word_tokenize as lib_tokenizer
 import string
 
