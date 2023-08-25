@@ -46,8 +46,8 @@
 --------
 ## Demo: [https://www.youtube.com/watch?v=dDLh55HYrfg](https://www.youtube.com/watch?v=dDLh55HYrfg)
 --------
-## ![](https://huggingface.co/front/assets/huggingface_logo.svg) Model: [https://huggingface.co/foxxy-hm/e2eqa-wiki](https://huggingface.co/foxxy-hm/e2eqa-wiki)
-## ![](https://huggingface.co/front/assets/huggingface_logo.svg) Data: [https://huggingface.co/datasets/foxxy-hm/e2eqa-wiki](https://huggingface.co/datasets/foxxy-hm/e2eqa-wiki)
+## Model ![](https://huggingface.co/front/assets/huggingface_logo.svg): [https://huggingface.co/foxxy-hm/e2eqa-wiki](https://huggingface.co/foxxy-hm/e2eqa-wiki)
+## Data ![](https://huggingface.co/front/assets/huggingface_logo.svg): [https://huggingface.co/datasets/foxxy-hm/e2eqa-wiki](https://huggingface.co/datasets/foxxy-hm/e2eqa-wiki)
 --------
 ## Solution: 
 #### 1. Cắt dữ liệu thành các sliding windows có kích thước 256.
