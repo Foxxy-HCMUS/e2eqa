@@ -3,7 +3,6 @@
 Đồ án cuối kì môn học thống kê (statiscal learning).
 
 ## Project Organization
-------------
 
     ├── LICENSE
     ├── README.md          <- File README
@@ -42,14 +41,14 @@
     └── submission
         └── submission.csv <- File submission
 
---------
 ## Demo: [https://www.youtube.com/watch?v=dDLh55HYrfg](https://www.youtube.com/watch?v=dDLh55HYrfg)
---------
+
 ## Model 
 🤗 [https://huggingface.co/foxxy-hm/e2eqa-wiki](https://huggingface.co/foxxy-hm/e2eqa-wiki)
-## Data 
+
+## Data
 🤗 [https://huggingface.co/datasets/foxxy-hm/e2eqa-wiki](https://huggingface.co/datasets/foxxy-hm/e2eqa-wiki)
---------
+
 ## Solution: 
 #### 1. Cắt dữ liệu thành các sliding windows có kích thước 256.
 #### 2. Tìm các ứng viên cho context với query nhập vào bằng thuật toán BM25.
